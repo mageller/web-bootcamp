@@ -1,5 +1,6 @@
 body {
   background-color: #232323;
+  color: white;
 }
 
 .square {
@@ -9,6 +10,8 @@ body {
   float: left;
   margin: 1.66%;
   border-radius: 20%;
+  transition: background-color 500ms;
+  transition-timing-function: ease;
 }
 
 #container {
